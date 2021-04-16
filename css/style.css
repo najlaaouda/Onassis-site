@@ -1,0 +1,186 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url('../img/header-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    padding:1px}
+
+.title{
+
+    width:80%;
+    margin:auto;
+    margin-top: 20%;
+    color:white;
+    text-align: center;
+    text-transform: capitalize;
+   /* padding:200px 50px; */
+}
+
+.title h1{
+
+font-size: 45px;
+letter-spacing: 3px;
+}
+
+.title p{
+
+    letter-spacing: 5px;
+    font-size: 17px;
+    margin-top:10px;
+
+}
+.details{
+    padding: 35px;
+}
+
+.details p{
+    width:50%;
+    margin:auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.services{
+ background-color: #eee;
+
+padding:25px;
+
+}
+
+.services h1{
+  text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding:20px 0;
+
+}
+
+.services1{
+    width:23%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.services1 h2{
+    font-size: 18px;
+    margin:10px 0;
+
+}
+.services1 p{
+
+    color:rgb(88, 88, 88);
+    font-size: 14px;
+    line-height: 1.5;
+}
+.services1 img{
+    width:100px;
+}
+
+.cool{
+
+    background-image: url('../img/portfolio-bg.jpg');
+    background-size: cover;
+    background-position: center top;
+    /* background-attachment: fixed; */
+    padding:65px;
+}
+
+.cool h1{
+
+    color:white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cool img{
+
+    width:150px;
+    margin-top:50px;
+    margin-left:220px;
+}
+
+.about{
+text-align: center;
+    padding: 35px;
+    background-color: #eee;
+
+}
+
+.about p{
+
+    width:50%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+
+}
+
+.team{
+    width:23%;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    padding:15px;
+
+}
+.team p{
+    line-height: 1.5;
+    width:90%;
+    color:#7e7e7e;
+}
+
+.about h1{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+
+.team img{
+width:100px;
+height:100px;
+border-radius: 50%;
+
+}
+ .team .social{
+    width:25px;
+    height:25px;
+    margin-left:10px;  
+}
+
+nav{
+padding:40px   ;
+text-align: center;
+
+}
+
+ul li{
+
+    display: inline-block;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color:#eee;
+    margin-left:30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.active{
+    font-weight:  bold;
+    color:rgb(4, 247, 25);
+}
